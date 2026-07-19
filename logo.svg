@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .cls-1 { fill: #2b394a; } /* Dark Blue color */
+    </style>
+  </defs>
+  
+  <!-- Left Building (Vertical Lines) -->
+  <g transform="translate(110, 80)">
+    <polygon class="cls-1" points="10,230 35,220 70,20 60,20" />
+    <polygon class="cls-1" points="40,218 60,210 90,20 80,20" />
+    <polygon class="cls-1" points="65,208 85,200 110,25 100,25" />
+    <polygon class="cls-1" points="90,198 105,195 120,30 112,30" />
+  </g>
+
+  <!-- Right Building (Horizontal curved shapes) -->
+  <g transform="translate(240, 40)">
+    <!-- Instead of exact shapes, I will draw the building outline and cut out the white spaces, 
+         or just draw the horizontal blocks -->
+    <path class="cls-1" d="M0,0 Q60,0 80,40 L0,25 Z"/>
+    <path class="cls-1" d="M0,35 Q65,20 95,75 L0,60 Z"/>
+    <path class="cls-1" d="M0,70 Q75,50 110,115 L0,100 Z"/>
+    <path class="cls-1" d="M0,110 Q85,85 125,165 L0,145 Z"/>
+    <path class="cls-1" d="M0,155 Q95,125 140,225 L0,200 Z"/>
+    <path class="cls-1" d="M0,210 Q105,170 150,270 L0,250 Z"/>
+  </g>
+
+  <!-- Text "VAASTU" -->
+  <g transform="translate(70, 370)">
+    <!-- V -->
+    <path class="cls-1" d="M10,0 L35,0 L50,60 L65,0 L90,0 L55,90 L45,90 Z"/>
+    <!-- A -->
+    <path class="cls-1" d="M110,90 L125,0 L150,0 L165,90 L140,90 L137,70 L137,70 L115,70 L112,90 Z M120,55 L133,55 L126,15 Z"/>
+    <!-- A -->
+    <path class="cls-1" d="M180,90 L195,0 L220,0 L235,90 L210,90 L207,70 L207,70 L185,70 L182,90 Z M190,55 L203,55 L196,15 Z"/>
+    <!-- S -->
+    <path class="cls-1" d="M255,90 L250,65 Q265,75 275,75 Q285,75 285,65 Q285,55 265,50 Q245,45 245,25 Q245,0 275,0 Q290,0 305,10 L295,30 Q285,20 275,20 Q265,20 265,28 Q265,35 285,40 Q305,45 305,65 Q305,95 275,95 Q260,95 255,90 Z"/>
+    
+    <!-- T (Compass Star) -->
+    <g transform="translate(330, 45)">
+      <!-- Vertical and Horizontal lines -->
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#2b394a" stroke-width="2"/>
+      <line x1="0" y1="-45" x2="0" y2="45" stroke="#2b394a" stroke-width="2"/>
+      <!-- Points of the star -->
+      <polygon class="cls-1" points="0,-35 5,-5 0,0 -5,-5" />
+      <polygon class="cls-1" points="0,35 5,5 0,0 -5,5" />
+      <polygon class="cls-1" points="-25,0 -5,5 0,0 -5,-5" />
+      <polygon class="cls-1" points="25,0 5,5 0,0 5,-5" />
+      <!-- Letters N, E, S, W -->
+      <text x="-3" y="-38" font-family="Arial" font-size="10" fill="#2b394a">N</text>
+      <text x="-3" y="45" font-family="Arial" font-size="10" fill="#2b394a">S</text>
+      <text x="28" y="3" font-family="Arial" font-size="10" fill="#2b394a">E</text>
+      <text x="-40" y="3" font-family="Arial" font-size="10" fill="#2b394a">W</text>
+    </g>
+
+    <!-- U -->
+    <path class="cls-1" d="M370,0 L395,0 L395,50 Q395,75 410,75 Q425,75 425,50 L425,0 L450,0 L450,55 Q450,95 410,95 Q370,95 370,55 Z"/>
+  </g>
+</svg>
